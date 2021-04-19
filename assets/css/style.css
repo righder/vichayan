@@ -9,7 +9,7 @@ body {
     height: 100vw;
 } 
 
-/* navbar */
+/* ------ navbar ------ */
 
 .navbar{
     background-color:	#B0F7E8;
@@ -30,7 +30,11 @@ body {
 .navbar-nav button:hover{
     color: rgb(107, 90, 86);
 }
-/* header */
+
+/*------ end of navbar ------*/
+
+/*------ header ------*/
+
 .header .p1{
     margin-bottom: 110px;
 }
@@ -73,7 +77,10 @@ body {
     border-radius: 13px;
 }
 
-/* body section */
+/*------ end of header ------*/
+
+/*------ body section ------*/
+
 .c1{ 
     text-align: center;
     font-size: 60px;
@@ -112,7 +119,10 @@ body {
     padding-left: 20px;
 }
 
-/* footer */
+/*------ end of body section ------*/
+
+/*------ footer ------*/
+
 .ufooter{
     background-color: #e4cad2;
     display: flex;
@@ -137,19 +147,27 @@ ul{
     text-align: center;
 }
 
+/*------ end of footer ------*/
+
+/*------------------ media query ------------------*/
+
 @media screen and (max-width: 768px) {
 
-    .navbar img{
-        max-width: 130px;
-        max-height: 43px;
-    }
-    
-    .navbar button{
-        font-size: 18px;
-    }
-    .navbar .button1{
-padding: -30px;
-    }
+/* ------ navbar ------ */
+
+.navbar img{
+    max-width: 130px;
+    max-height: 43px;
+}
+.navbar button{
+    font-size: 18px;
+}
+.navbar .button1{
+    padding: -30px;
+}
+
+/* ------ Header ------ */
+
 .hh1 img{
     width: 100%;
     max-width: 400px;
@@ -157,46 +175,49 @@ padding: -30px;
     padding-right: 10px;
 }
  .hh2{
-        text-align: center;
-        display: block;
-    }
-    .hh2 img{
-        width: 100%;
-        max-width: 400px;
-        height: auto;
-        padding-right: 10px;
-    }
-    .hh2 h1{
-        margin-top: -70px;
-        padding-left: 5%;
-        font-size: 32px;
-        padding-right: 5%;
-       
-    }
+    text-align: center;
+    display: block;
+}
+.hh2 img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding-right: 10px;
+}
+.hh2 h1{
+    margin-top: -70px;
+    padding-left: 5%;
+    font-size: 32px;
+    padding-right: 5%;
+}
+
+/* bbj used for 2 buttons in header section */
 .bbj{
     margin-top: -35px;
     padding-bottom: 35px;
-  padding-left: 60px;
+    padding-left: 60px;
     padding-right: 60px;
 }
 .bbj button{
     font-size: 15px;
 }
-    .c1{
-        margin-bottom: -1px;
-    }
-    .c1 h1{
-        font-size: 30px;
-    }
-    .c1 button{
-        font-size: 18px;
-        margin-top: -25px;
-        margin-right: 5px;
-    }
-    .c2{
-        flex-direction: column-reverse;
-    }
-    .c3{
+
+/* ------ Body Section ------ */
+.c1{
+    margin-bottom: -1px;
+}
+.c1 h1{
+    font-size: 30px;
+}
+.c1 button{
+    font-size: 18px;
+    margin-top: -25px;
+    margin-right: 5px;
+}
+.c2{
+    flex-direction: column-reverse;
+}
+.c3{
     display: block;
 }
 .c2 h1{
@@ -207,13 +228,13 @@ padding: -30px;
 }
 .c2 img{
     width: 100%;
-  max-width: 400px;
-  height: auto;
+    max-width: 400px;
+    height: auto;
 }
 .c3 img{
-     width: 100%;
-  max-width: 400px;
-  height: auto;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 } 
 .c3 h1{
     text-align: center;
@@ -223,21 +244,21 @@ padding: -30px;
     margin-bottom: -20px;
 }
 
+/* ------ Footer ------ */
 
-
-  .ufooter {
+.ufooter {
     display: block;
     text-align: center;
-  }
-  .ufooter .text{
-      padding-left: 30px;
-  }
+}
+.ufooter .text{
+    padding-left: 30px;
+}
 .ufooter img{
     padding-left: 26px;
     margin-top: -60px;
     margin-bottom: -30px;
-   width: 100%;
-   height: 100%;
+    width: 100%;
+    height: 100%;
 } 
 .copyright{
     padding: 10px;
