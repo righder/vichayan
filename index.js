@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }))
 // mongodb://myUserName:MyPassword@ElasticIP:27017/databaseName?authSource=admin
-mongoose.connect('mongodb://localhost:27017/vichayan?authSource=admin', {
+mongoose.connect('mongodb+srv://vichayan123:vichayan123@cluster0.lwbbj.mongodb.net/vichayan?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
